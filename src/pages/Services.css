@@ -1,0 +1,97 @@
+/* Services.css */
+
+body {
+    background-color: #f8f9fa; 
+  }
+  
+  .services {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .services h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* 카드 간의 간격 */
+  }
+  
+  .service-item {
+    background-color: #ffffff; /* 카드 배경색 */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 카드에 그림자 효과 */
+    text-align: left;
+  }
+  
+  .service-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    margin: 10px 0; /* <p> 요소 간의 간격 추가 */
+    line-height: 1.6; /* 읽기 편한 줄 간격 */
+  }
+  
+  .skills-experience {
+    margin-top: 50px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .skills-experience h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    background-color: #ffffff; /* 카드 배경색 */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 카드에 그림자 효과 */
+  }
+  
+  .skill img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .skill h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .skill ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skill li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .skill li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 20px;
+  }

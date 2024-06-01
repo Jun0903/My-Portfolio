@@ -1,0 +1,39 @@
+/* About.css */
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .about a {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ff4500;
+  }
+  
+  .about a:hover {
+    text-decoration: underline;
+  }
+
+  body {
+    background-color: #f8f9fa; 
+  }

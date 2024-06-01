@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+/* File name: Navbar.css, Student’s Name: TaeJun Chang, StudentID: 301138621, Date: 2024-05-30 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.logo a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  background-color: #444;
+}
+
+.active-link {
+  color: #007bff;
+  background-color: #222;
+  border-radius: 5px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}

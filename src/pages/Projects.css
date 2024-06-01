@@ -1,0 +1,63 @@
+/* Projects.css */
+
+.projects {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .projects h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin-right: 20px; 
+  }
+  
+  .project:last-child {
+    margin-right: 0; 
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description p {
+    font-size: 16px;
+    margin: 10px 0; 
+    line-height: 1.6; 
+    padding-left: 25px; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .project-description p::before {
+    content: '•'; 
+    margin-right: 10px; 
+    color: #007bff; 
+    font-size: 20px; 
+    line-height: 1; 
+  }
+
+  body {
+    background-color: #f8f9fa; 
+  }
